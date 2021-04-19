@@ -11,9 +11,10 @@
 
     <title>Portfolio</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <!-- Bootstrap Core CSS
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -29,6 +30,38 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style type="text/css">
+        /* Set the size of the div element that contains the map */
+        #map {
+          height: 400px;
+          /* The height is 400 pixels */
+          width: 100%;
+          /* The width is the width of the web page */
+        }
+      </style>
+      <script>
+        "use strict";
+  
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          var uluru = {
+            lat: 43.54206235023207,
+            lng: 7.121760474872501,
+          }; // The map, centered at Uluru
+  
+          var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: uluru,
+          }); // The marker, positioned at Uluru
+  
+          var marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+          });
+        }
+      </script>
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -40,9 +73,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i> <span class="light">Start</span>               </a>
-            </div>
+          </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -56,6 +87,9 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#experiences">Experience</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="projects.html">Projects</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -73,8 +107,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="heading">Dr. Van-Khoa LE 's portfolio</h1>
-                        <p class="intro-text">Just a lucky man in this world</p>
+                        <h1 class="heading">Van-Khoa LE</h1>
+                        <p class="intro-text">Ph.D., Data Scientist</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -91,24 +125,91 @@
                 <h2>About me</h2>
                 <p> Welcome to my personal portfolio.
                 </p>
-                <p>I'm working at Sophia Antipolis in south of France as an AI consultant. Looking forward for opportunity to collaborate in AI projects. Come to Sophia, you can work and enjoy the vacation at the same time.
-                </p>
+                <p>As an experienced Data Scientist and Machine Learning Engineer,
+                    I applied Deep Learning and Machine Learning algorithms to solve Computer Vision tasks in different sectors
+                    from Optical Character Recognition (OCR), Fashion, Fishing industry to Neuromorphic Engineer, and most recently fighting 
+                    cancer with histological images and radiological images.
+                    </p>
             </div>
         </div>
     </section>
 
     <!-- Download Section -->
     <section id="experiences" class="content-section text-left">
-        <div class="download-section">
+        <div class="row download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Experience</h2>
                     <ul>
-         <li><p>2018-now: AI Consultant at <a href="https://www.klanik.com/">Klanik</a>.</p></li>
-         <li><p>2018: AI Researcher at <a href="https://www.cinnamonailabs.com/">Cinnamon AI Labs</a>.</p></li>
-         <li><p>2015 - 2018: PhD OSS at <a href="https://www.utt.fr/">UTT</a>. Worked on <a href="https://projetvirtualis.wordpress.com/">VIRTUALIS</a> project.</p></li>
-         <li><p>2014 - 2015: Master  <a href="https://www.utt.fr/formations/master/optimisation-et-surete-des-systemes/master-optimisation-et-surete-des-systemes-9851.kjsp">Optimisation et Sureté des Systèmes</a>  at <a href="https://www.utt.fr/">UTT</a>.</p></li>
-         <li><p>2009 - 2014:Automation Engineer at Ho Chi Minh University of Technology</a>  </a>.</p></li>
+                        <li><p>2021 - now: Data Scientist at <a href="https://mediantechnologies.com/?lang=fr">Median Technologies</a>.</p></li>
+                        <li><p>2020: AI Consultant at <a href="https://www.bayer.fr/fr/">Bayer Crop Science</a>.
+                            <ul>
+                                <li> Discuss with pathologists and other data scientists in multi divisions for the best strategies to apply AI for histopathology whole slide images.
+                                </li>
+                                <li> Build the ETL pipeline for data collection, data curation, and data anonymization.
+                                </li>
+                                <li> Cloud infrastructure management.
+                                </li>
+                                <li> Deep learning models development on several datasets to detect lesions in WSI
+                                </li>
+                            </ul>
+                        </p>
+                        </li>
+                        <li><p>2020: AI Consultant at <a href="https://piflab.io/">PIF Lab</a>.
+                            <ul>
+                                <li>
+                                    FishCounter project: AI counting system for fishing boat.
+                                </li>
+                                <li>
+                                    Interface with stakeholders, developers, and technical support to determine optimal specifications for the system, both on algorithm and hardware.
+                                </li>
+                            </ul>
+                        
+                        </p></li>
+                        <li><p>2020: Machine Learning Engineer at <a href="https://cloudai.solutions/">Cloud AI Solutions</a>.
+                            <ul>
+                                <li>
+                                    Integrate AI to fashion industry to make recommendation and predict trending fashion.
+                                </li>
+                                <li>
+                                    Investigation, design, and implement scalable applications for data identification, analysis, retrieval.
+                                </li>
+                                <li>
+                                    Build image classification model and clothes segmentation model.
+                                </li>
+                                <li>
+                                    Predict trending color on Amazon dataset with Signal Processing algorithm and libraries.
+                                </li>
+                            </ul></p></li>
+                        <li><p>2019: AI Consultant at <a href="https://www.imra.eu/imra.eu/">IMRA Europe</a>.
+                                <ul>
+                                    <li>
+                                        State of the art survey research on event camera, a new type of camera that captures the brightness change in each pixel, which has high dynamic range, high time resolution, redundancy free, and no blur. The output was a report on this camera and current state of the art in the event-based domain.
+                                    </li>
+                                    <li>
+                                        Prove of concept using the event camera in order to attract investment from stakeholders. The product was a hand gesture recognition system using an event camera and spiking neural network (SNN), and the energy consumption analysis comparing with the frame-based counterpart. From this work, a coworker brought this demo to show to the manager in Japan.
+
+Other tasks involved being an engineer internship advisor, Meetup presentor about Spiking Neural Network. My work was presented at the NeuroSTIC day at Nice Sophia Antipolis University.
+                                    </li>
+                                </ul>
+                            </p></li>
+                        <li><p>2018: AI Researcher at <a href="https://www.cinnamonailabs.com/">Cinnamon AI Labs</a>.
+                                <ul>
+                                    <li>
+                                        Project Flaxscanner, an OCR software to extract scanned document to text to enhance the repetitive work of human. In this project, my task concentrates on the data augmentation to improve the accuracy of the Flaxscanner. My approach was using Variational AutoEncoder to create synthetic character from online hand writing dataset.The pipeline was made, but the quality of the synthetic character was too good compared to real images, so the synthetic data can only be used to create new style of handwriting but can not replace completely the training images. Although the result was not as expected, I learnt a lot from this work, how to implement deeplearning models and many deeplearning techniques.
+                                    </li>
+                                </ul>
+                            
+                            </p></li>
+                        <li><p>2015 - 2018: PhD OSS at <a href="https://www.utt.fr/">UTT</a>. Worked on <a href="https://projetvirtualis.wordpress.com/">VIRTUALIS</a> project.
+                                <ul>
+                                    <li>
+                                        This thesis takes a role in the VIRTUALIS project , partner with companies like Thalès and other PMEs. The objective of this project is to create an intelligent surveillance system. This thesis contributed 2 methods to detect abnormal events in the building. The data that we used to analyze were capture from the building of Thales in Paris Palaiseau, which were trajectories of people inside the building and other signals (badge, infrared sensor). The first method was a statistical classifier based on multiple metrics such as stay duration, moving speed, etc. The second method was a kernel method to map the trajectories into a high dimentional space, and apply One Class SVM classifier to detect the anomalies.
+                                    </li>
+                                </ul>
+                            </p></li>
+                        <li><p>2014 - 2015: Master  <a href="https://www.utt.fr/formations/master/optimisation-et-surete-des-systemes/master-optimisation-et-surete-des-systemes-9851.kjsp">Optimisation et Sureté des Systèmes</a>  at <a href="https://www.utt.fr/">UTT</a>.</p></li>
+                        <li><p>2009 - 2014:Automation Engineer at Ho Chi Minh University of Technology</a>  </a>.</p></li>
                   </ul>
                 </div>
             </div>
@@ -128,12 +229,6 @@
                         <a href="https://github.com/vankhoa21991?tab=repositories" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
                     <li>
-                        <a href="https://facebook.com/khoa.le.9634" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/vankhoa21991" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
                         <a href="https://www.linkedin.com/in/van-khoa-le-60425591/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
                     </li>
                 </ul>
@@ -141,27 +236,40 @@
         </div>
     </section>
 
+    <div id="map"></div>
+
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2016</p>
+            <p>Copyright &copy; Your Website 2021</p>
         </div>
     </footer>
 
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
+    <!-- <script src="vendor/jquery/jquery.js"></script> -->
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="vendor/bootstrap/js/bootstrap.min.js"></script> --> -->
+
+    
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVaMMa_4n-sZ0oyGipPy_4nv3DqHos8PY&sensor=false"></script>
-
     <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
+    <script src="js/grayscale.js"></script>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPjBNHKkyh87R8B1GoFQQ4L5ufhjGGPwM&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
 
 </body>
 
