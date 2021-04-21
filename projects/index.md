@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Projects
-description: Projects of Lester James V. Miranda
+description: My projects
 permalink: /projects/
 ---
 
-I love to build software, experiment with data, and implement machine
+<!-- I love to build software, experiment with data, and implement machine
 learning systems. Check-out some of my works!
 
 <ul>
@@ -16,4 +16,4 @@ learning systems. Check-out some of my works!
         <meta name="keywords" content="{{ post.tags | join: ', ' | escape }}"/>
     </li>
   {% endfor %}
-</ul>
+</ul> -->
