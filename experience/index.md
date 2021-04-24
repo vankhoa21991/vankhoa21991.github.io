@@ -4,8 +4,8 @@ title: Experiences
 description: My researcher and developer life
 permalink: /experience/
 ---
-
-<ul>
+<div class="align">
+    <ul>
                         <li><p>2021 - now: Data Scientist at <a href="https://mediantechnologies.com/?lang=fr">Median Technologies</a>.</p></li>
                         <li><p>2020: AI Consultant at <a href="https://www.bayer.fr/fr/">Bayer Crop Science</a>.
                             <ul>
@@ -74,5 +74,6 @@ Other tasks involved being an engineer internship advisor, Meetup presentor abou
                                 </ul>
                             </p></li>
                         <li><p>2014 - 2015: Master  <a href="https://www.utt.fr/formations/master/optimisation-et-surete-des-systemes/master-optimisation-et-surete-des-systemes-9851.kjsp">Optimisation et Sureté des Systèmes</a>  at <a href="https://www.utt.fr/">UTT</a>.</p></li>
-                        <li><p>2009 - 2014:Automation Engineer at Ho Chi Minh University of Technology</a>  </a>.</p></li>
+                        <li><p>2009 - 2014:Automation Engineer at Ho Chi Minh University of Technology.</p></li>
                   </ul>
+</div>

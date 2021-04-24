@@ -10,8 +10,8 @@ layout: home
         <img id="profilepic" width="200" height="200" src="assets/img/0.photo.jpg" alt="Profile">
     </div>
 
-    <div class="left">
-    <h3> Welcome to my personal page. </h3>
+    <div class="left align">
+    <h3> Hi, my name is Van Khoa, and welcome to my personal portfolio. This is a page where I display my personal thoughts about stuff I care about, feel free to send me a message &#128515;.  </h3>
 
     </div>
 

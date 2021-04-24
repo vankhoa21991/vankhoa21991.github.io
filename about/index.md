@@ -5,22 +5,19 @@ description: About page of Lj Miranda - Blog
 permalink: /about/
 ---
 
-<div class="right">
-        <p> Hi, my name is Van Khoa and welcome to my personal portfolio.
-                </p>
-                <p>As an experienced Data Scientist and Machine Learning Engineer,
-                    I applied Deep Learning and Machine Learning algorithms to solve Computer Vision tasks in different sectors
-                    from Optical Character Recognition (OCR), Fashion, Fishing industry to Neuromorphic Engineer, and most recently fighting 
-                    cancer with histological images and radiological images.
-                    </p>
-    </div>
+<div class="right align">
+    <p>As an experienced Data Scientist and Machine Learning Engineer,
+        I applied Deep Learning and Machine Learning algorithms to solve Computer Vision tasks in different sectors
+        from Optical Character Recognition (OCR), Fashion, Fishing industry to Neuromorphic Engineer, and most recently fighting 
+        cancer with histological images and radiological images.
+        </p>
+</div>
 
 ## Background
 
 
 ## Contact
 
-**Van Khoa LE**  
 Vallauris, France  
 [Curriculum Vitae (PDF)](https://www.dropbox.com/s/zyi8o0rqesq73dj/Le%20Van%20Khoa%20CV.pdf?dl=0)
 
