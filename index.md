@@ -11,7 +11,9 @@ layout: home
     </div>
 
     <div class="left align">
-    <h3> Hi, my name is Van Khoa, and welcome to my personal portfolio. This is a page where I display my personal thoughts about stuff I care about, feel free to send me a message &#128515;.  </h3>
+    <h3> Hi, my name is Van Khoa, and welcome to my personal portfolio. This is a page where I display my personal thoughts about stuff I care about &#128515;.  </h3>
+
+    <h3> Feel free to send me a message.  </h3>
 
     </div>
 
