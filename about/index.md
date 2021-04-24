@@ -19,10 +19,12 @@ permalink: /about/
     Being in the AUF program was a great honor for me, and opened up a opportunity to continue my study in France, with the Exellence scholarship from France Ambassador in Vietnam.
     </p>
     <p>
-    It was a new chapter when I started my study in Troyes, first time I live far away from my family, an independent life in a strange place that I barely speak the language. I spent 4 years in this beautiful city for my extended student life. It was not always easy but I had a great time with my friends.
+    It was a new chapter when I continued my study in Troyes University of Technology, first time I live far away from my family, an independent life in a strange place that I barely speak the language. I discovered about Machine Learning (ML) at first in my Master internship and I knew that I would follow that path in my career. So I continued my PhD with a subject related to ML.    
+    I spent 4 years in this beautiful city for my extended student life, it was not always easy but I had a great and memorable time.
+    I traveled a lot in this stage of my life, maybe because I thought that I would return to Vietnam after my PhD. While writting the final script of my PhD, I joined a start-up in AI.  
     </p> 
     <p>
-    Now I moved to Coted'Azur, a wonderful place that I wouldn't imagine even in my dream that I will have a chance to live and work here. A place where I don't need to go on vacations anymore, and I decided to settle down here with my partner and start a new life together.
+    Then I moved to Côte d'Azur, a wonderful place that I wouldn't imagine even in my dream that I will have a chance to live and work here. A place where I don't need to go on vacations anymore, and I decided to settle down here with my partner and start a new life together. I worked for a consultant company for two years, with two missions for different clients, from small research lab to big co-op to apply ML for different applications in different sectors. With the cumulated experience I had in those companies, now I join a company that apply ML/DL to fight cancer through radiology images.
     </p>
 </div>
 
