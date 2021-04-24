@@ -7,10 +7,10 @@ layout: home
 
 <div class="divider">
     <div class="left">
-        <img id="profilepic" width="200" height="200" src="assets/img/0.photo.jpg" alt="Profile">
+        <img id="profilepic" width="300" height="200" src="assets/img/DSC_0686.JPG" alt="Profile">
     </div>
 
-    <div class="left align">
+    <div class="right align">
     <h3> Hi, my name is Van Khoa, and welcome to my personal portfolio. This is a page where I display my personal thoughts about stuff I care about &#128515;.  </h3>
 
     <h3> Feel free to send me a message.  </h3>

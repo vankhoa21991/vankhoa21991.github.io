@@ -19,10 +19,10 @@ permalink: /about/
     Being in the AUF program was a great honor for me, and opened up a opportunity to continue my study in France, with the Exellence scholarship from France Ambassador in Vietnam.
     </p>
     <p>
-    It as a whole new life when I started my study in Troyes, first time I live far away from my family, an independent life in a strange place that I barely speak the language. I spent 4 years in this beautiful city for my student extended life. It was not always easy but I had a great time with my friends.
+    It was a new chapter when I started my study in Troyes, first time I live far away from my family, an independent life in a strange place that I barely speak the language. I spent 4 years in this beautiful city for my extended student life. It was not always easy but I had a great time with my friends.
     </p> 
     <p>
-    Now, after my PhD, I live and work in Coted'Azur, a wonderful place that I wouldn't imagine even in my dream that I will have a chance to live and work here. A place where I don't need to go on vacations anymore, and I decided to settle down here with my partner and start a new life together.
+    Now I moved to Coted'Azur, a wonderful place that I wouldn't imagine even in my dream that I will have a chance to live and work here. A place where I don't need to go on vacations anymore, and I decided to settle down here with my partner and start a new life together.
     </p>
 </div>
 
